@@ -1,7 +1,8 @@
 ---
-name: Library/you/hello/PLUG
+name: Library/jvcorreia/sb-kroki
 tags: meta/library
 files:
-- hello.plug.js
+- sb-kroki.plug.js
+
 ---
 This library does A, B and C.

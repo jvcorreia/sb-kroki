@@ -1,16 +1,24 @@
 {
   "tasks": {
-    "build": "deno run -A https://github.com/silverbulletmd/silverbullet/releases/download/edge/plug-compile.js -c deno.json hello.plug.yaml"
+    "build": "deno run -A https://github.com/silverbulletmd/silverbullet/releases/download/edge/plug-compile.js -c deno.json --dist build/ kroki.plug.yaml",
+    "deploy": "mkdir -p ../test-space/Library/jvcorreia/kroki && cp PLUG.md ../test-space/Library/jvcorreia/kroki/PLUG.md && cp build/* ../test-space/_plug",
+    "clean": "rm -rf build/*"
   },
   "lint": {
     "rules": {
-      "exclude": ["no-explicit-any"]
+      "exclude": [
+        "no-explicit-any"
+      ]
     }
   },
   "fmt": {
-    "exclude": ["*.md", "**/*.md", "*.plug.js"]
+    "exclude": [
+      "*.md",
+      "**/*.md",
+      "*.plug.js"
+    ]
   },
   "imports": {
-    "@silverbulletmd/silverbullet": "jsr:@silverbulletmd/silverbullet@^2.3.0"
+    "@silverbulletmd/silverbullet": "jsr:@silverbulletmd/silverbullet@^2.0.0"
   }
 }

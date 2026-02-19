@@ -1,0 +1,91 @@
+name: kroki
+version: 0.1
+imports:
+  - https://get.silverbullet.md/global.plug.json
+requiredPermissions:
+  - fetch
+functions:
+  krokiBlockdiagWidget:
+    path: ./kroki.ts:krokiBlockdiagWidget
+    codeWidget: kroki_blockdiag
+  krokiBpmnWidget:
+    path: ./kroki.ts:krokiBpmnWidget
+    codeWidget: kroki_bpmn
+  krokiBytefieldWidget:
+    path: ./kroki.ts:krokiBytefieldWidget
+    codeWidget: kroki_bytefield
+  krokiSeqdiagWidget:
+    path: ./kroki.ts:krokiSeqdiagWidget
+    codeWidget: kroki_seqdiag
+  krokiActdiagWidget:
+    path: ./kroki.ts:krokiActdiagWidget
+    codeWidget: kroki_actdiag
+  krokiNwdiagWidget:
+    path: ./kroki.ts:krokiNwdiagWidget
+    codeWidget: kroki_nwdiag
+  krokiPacketdiagWidget:
+    path: ./kroki.ts:krokiPacketdiagWidget
+    codeWidget: kroki_packetdiag
+  krokiRackdiagWidget:
+    path: ./kroki.ts:krokiRackdiagWidget
+    codeWidget: kroki_rackdiag
+  krokiC4plantumlWidget:
+    path: ./kroki.ts:krokiC4plantumlWidget
+    codeWidget: kroki_c4plantuml
+  krokiD2Widget:
+    path: ./kroki.ts:krokiD2Widget
+    codeWidget: kroki_d2
+  krokiDbmlWidget:
+    path: ./kroki.ts:krokiDbmlWidget
+    codeWidget: kroki_dbml
+  krokiDitaaWidget:
+    path: ./kroki.ts:krokiDitaaWidget
+    codeWidget: kroki_ditaa
+  krokiErdWidget:
+    path: ./kroki.ts:krokiErdWidget
+    codeWidget: kroki_erd
+  krokiExcalidrawWidget:
+    path: ./kroki.ts:krokiExcalidrawWidget
+    codeWidget: kroki_excalidraw
+  krokiGraphvizWidget:
+    path: ./kroki.ts:krokiGraphvizWidget
+    codeWidget: kroki_graphviz
+  krokiMermaidWidget:
+    path: ./kroki.ts:krokiMermaidWidget
+    codeWidget: kroki_mermaid
+  krokiNomnomlWidget:
+    path: ./kroki.ts:krokiNomnomlWidget
+    codeWidget: kroki_nomnoml
+  krokiPikchrWidget:
+    path: ./kroki.ts:krokiPikchrWidget
+    codeWidget: kroki_pikchr
+  krokiPumlWidget:
+    path: ./kroki.ts:krokiPumlWidget
+    codeWidget: kroki_puml
+  krokiStructurizrWidget:
+    path: ./kroki.ts:krokiStructurizrWidget
+    codeWidget: kroki_structurizr
+  krokiSvgbobWidget:
+    path: ./kroki.ts:krokiSvgbobWidget
+    codeWidget: kroki_svgbob
+  krokiSymbolatorWidget:
+    path: ./kroki.ts:krokiSymbolatorWidget
+    codeWidget: kroki_symbolator
+  krokiTikzWidget:
+    path: ./kroki.ts:krokiTikzWidget
+    codeWidget: kroki_tikz
+  krokiUmletWidget:
+    path: ./kroki.ts:krokiUmletWidget
+    codeWidget: kroki_umlet
+  krokiVegaWidget:
+    path: ./kroki.ts:krokiVegaWidget
+    codeWidget: kroki_vega
+  krokiVegaLiteWidget:
+    path: ./kroki.ts:krokiVegaLiteWidget
+    codeWidget: kroki_vega-lite
+  krokiWavedromWidget:
+    path: ./kroki.ts:krokiWavedromWidget
+    codeWidget: kroki_wavedrom
+  krokiWirevizWidget:
+    path: ./kroki.ts:krokiWirevizWidget
+    codeWidget: kroki_wireviz
