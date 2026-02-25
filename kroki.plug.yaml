@@ -44,9 +44,6 @@ functions:
   krokiErdWidget:
     path: ./kroki.ts:krokiErdWidget
     codeWidget: kroki_erd
-  krokiExcalidrawWidget:
-    path: ./kroki.ts:krokiExcalidrawWidget
-    codeWidget: kroki_excalidraw
   krokiGraphvizWidget:
     path: ./kroki.ts:krokiGraphvizWidget
     codeWidget: kroki_graphviz

@@ -105,14 +105,6 @@ export async function krokiErdWidget(
   return krokiWidget(bodyText, 'erd');
 }
 
-export async function krokiExcalidrawWidget(
-  bodyText: string,
-  pageName: string
-): Promise<CodeWidgetContent> {
-  console.log('krokiExcalidrawWidget called with bodyText:', bodyText);
-  return krokiWidget(bodyText, 'excalidraw');
-}
-
 export async function krokiGraphvizWidget(
   bodyText: string,
   pageName: string
