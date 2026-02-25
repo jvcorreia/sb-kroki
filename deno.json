@@ -2,7 +2,8 @@
   "tasks": {
     "build": "deno run -A https://github.com/silverbulletmd/silverbullet/releases/download/edge/plug-compile.js -c deno.json kroki.plug.yaml",
     "deploy": "mkdir -p ../test-space/Library/jvcorreia/kroki && cp PLUG.md ../test-space/Library/jvcorreia/kroki/PLUG.md && cp *.js ../test-space/_plug",
-    "clean": "rm -rf build/*"
+    "clean": "rm -rf build/*",
+    "release": "deno task build && cp build/*.js ."
   },
   "lint": {
     "rules": {
